@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<!-- link to font awesome for inserting icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<!-- link to css file for styles -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav class="navbar">
+				<div class="logo">Portfolio</div>
+				<ul class="nav-links">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#portfolios">Portfolios</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- hero section -->
+	<section class="hero" id="home">
+		<div class="hero-content scroll-reveal">
+			<h1 class="hero-title">Hello, I am Nafilah Nursabila</h1>
+			<p class="hero-text">I am a fresh graduate of Bachelor of Information Systems from 
+				Dinamika University, with interest in Frontend Development and UI/UX enthusiast.</p>
+			<a href="#contact" class="btn">
+				<i class="fa-solid fa-envelope"></i>
+				Contact Me
+			</a>
+		</div>
+		<div class="hero-image scroll-reveal">
+			<img src="assets/foto.jpg" alt="profile">
+		</div>
+	</section>
+	<!-- skills section -->
+	<section class="skills" id="skills">
+		<div class="container">
+			<h2 class="scroll-reveal">Skills</h2>
+			<div class="skills-grid">
+				<div class="skills-card scroll-reveal">
+					<div class="skills-icon">
+						<i class="fa-brands fa-html5"></i>
+					</div>
+					<h3>HTML</h3>
+					<p>The standard language used to create the structure of web pages, 
+						including text, images, links, and other content elements</p>
+				</div>
+				<div class="skills-card scroll-reveal">
+					<div class="skills-icon">
+						<i class="fa-brands fa-css3-alt"></i>
+					</div>
+					<h3>CSS</h3>
+					<p>EA styling language used to control the appearance of HTML 
+						elements—such as colors, fonts, layouts, and animations</p>
+				</div>
+				<div class="skills-card scroll-reveal">
+					<div class="skills-icon">
+						<i class="fa-brands fa-js"></i>
+					</div>
+					<h3>JavaScript</h3>
+					<p>A programming language used to add interactivity and dynamic 
+						behavior to websites—like form validation, pop-ups, and responsive menus</p>
+				</div>
+				<div class="skills-card scroll-reveal">
+					<div class="skills-icon">
+						<i class="fa-solid fa-paintbrush"></i>
+					</div>
+					<h3>UI/UX Design</h3>
+					<p>UI/UX Design refers to how a website or app looks (UI) and how easy or enjoyable 
+						it is to use (UX)</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- portfolios section -->
+	<section class="portfolios" id="portfolios">
+		<div class="container">
+			<h2 class="scroll-reveal">Featured Portfolios</h2>
+			<div class="portfolios-grid">
+				<div class="portfolios-card scroll-reveal">
+					<!--<img src="assets/client1.jpeg" class="client-photo" alt="Portfolio 1">-->
+					<h4>MARIS | UI/UX</h4><br>
+					<p>"Medical Record Information System (MARIS) is a program that produces
+						patient records after examination, treatment, and medical actions at
+						health facilities for outpatient or inpatient care. MARIS stores all
+						patient medical record data automatically in a database, which can be 
+						accessed by officers or doctors who have a registered NIP and password."</p>
+				</div>
+				<div class="portfolios-card scroll-reveal">
+					<!--<img src="assets/client2.jpeg" class="client-photo" alt="Client">-->
+					<h4>FotoGrafkita | UI/UX</h4><br>
+					<p>"FotoGrafkita provides photographer services to capture moments, such 
+						as graduations, birthday celebrations, memory books in the form of 
+						photos, or videos. In addition, we also work with photo printing or
+						albums and studios to provide a complete package."</p>
+				</div>
+				<div class="portfolios-card scroll-reveal">
+					<!--<img src="assets/client3.jpeg" class="client-photo" alt="Client">-->
+					<h4>BLing | UI/UX</h4><br>
+					<p>"BLing stands for Bimbingan konseLing, which is designed to make it
+						easier for students to consult with Guidance and Counseling teachers 
+						via cellphone and can be accessed 24/7 and can be done anywhere and 
+						anytime. In addition, students can choose the time they want."</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- contact section -->
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="contact scroll-reveal">
+				<h2>Contact Me</h2><br>
+				
+				<form class="contact-form">
+					<div class="form-grid">
+						<div class="input-group">
+							<input type="text" id="name" required>
+							<label for="name">Name</label>
+							<i class="fa-solid fa-user"></i>
+						</div>
+						<div class="input-group">
+							<input type="email" id="email" required>
+							<label for="email">Email Address</label>
+							<i class="fa-solid fa-envelope"></i>
+						</div>
+						<div class="input-group full-width">
+							<textarea id="message" rows="4" placeholder="Special request..."></textarea>
+						</div>
+						<button type="submit" class="btn">
+							<i class="fa-solid fa-paper-plane"></i>
+							Send
+						</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<!-- Add this footer section before closing body tag -->
+	<footer>
+		<div class="container">
+			<div class="footer-content scroll-reveal">
+				<div class="footer-col">
+					<h3>Follow Me</h3>
+					<p>Want to know my personality better, just follow my social media accounts.</p>
+					<div class="social-links">
+						<a href="https://www.instagram.com/nafilahn__/"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://www.x.com/nafilahn__/"><i class="fa-brands fa-x-twitter"></i></a>
+						<a href="https://id.pinterest.com/nafilahn__/"><i class="fa-brands fa-pinterest"></i></a>
+						<a href="https://www.linkedin.com/in/nafilahn-6255362aa/"><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+				</div>
+				<div class="footer-col">
+					<h3>Quick Links</h3>
+					<ul class="footer-links">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#portofolio">Portofolio</a></li>
+						<li><a href="#contact">Contact Me</a></li>
+					</ul>
+				</div>
+				<div class="footer-col">
+					<h3>Contact Info</h3>
+					<p><i class="fa-solid fa-location-dot"></i> Pamekasan, Madura, Jawa Timur</p>
+					<p><i class="fa-solid fa-phone"></i> (+62) 123-4567</p>
+					<p><i class="fa-solid fa-envelope"></i> nafilahnursabila443@gmail.com</p>
+				</div>
+			</div>
+			<div class="copyright scroll-reveal">
+				<p>&copy; 2025 Nafilah Nursabila. All rights reserved. | Designed with <i class="fa-solid fa-heart"></i></p>
+			</div>
+		</div>
+	</footer>
+	<!-- link to javascript file-->
+<script src="js/script.js"></script>
+</body>
+</html>
